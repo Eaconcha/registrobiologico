@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../coral.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: calibri;
+}
+form{
+    background: rgba(102, 204, 153);
+    max-width: 500px;
+    width: 100%;
+    margin: 48px 450px;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    padding: 40px;
+    cursor:pointer;
+}
+form h2{
+    margin: 0 0 25px 0;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 1px;
+}
+form input[type="text"],
+input[type="password"]{
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+form input[type="text"]:focus,
+form input[type="password"]:focus{
+    border-bottom:  2px solid #33AFFF;
+}
+form input[type="date"],
+input[type="password"]{
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+form input[type="date"]:focus,
+form input[type="password"]:focus{
+    border-bottom:  2px solid #33AFFF;
+}
+form input[type="number"],
+input[type="password"]{
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+form input[type="number"]:focus,
+form input[type="password"]:focus{
+    border-bottom:  2px solid #33AFFF;
+}
+form input[type="button"] {
+    background: #33AFFF;
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Roboto;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+form input[type="button"]:hover {
+    background: rgba(0, 117, 217, 0.7);
+}
